@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 		//,plugin = {"pretty", "html:target/Destination"} 
 		//,plugin = { "pretty", "html:target/cucumber-reports" }
 		 ,plugin = { "pretty", "html:target/cucumber-html-report","json:target/cucumber.json" }
-		 ,tags = {"@smoke"}////or
+		 ,tags = {"@sanity"}////or
 		// tags = {"@Smoke,@sanity"},////or
 		 //tags = {"@Smoke","@sanity"},////and
 		 //tags = {"@Smoke","~@Sanity"},////And
